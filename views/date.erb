@@ -4,6 +4,7 @@
 
   <body>
     <h1> Today</h1>
-    <p>The date is <%= Time(day) %></p>
+    <% time = Time.new %>
+    <p>The date is <%= time.wday %></p>
   </body>
 </html>
